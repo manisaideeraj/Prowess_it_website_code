@@ -1,0 +1,68 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.12.6",
+    "@strapi/plugin-users-permissions": "5.12.6",
+    "@strapi/strapi": "5.12.6",
+    "better-sqlite3": "11.3.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/argparse": "^2.0.17",
+    "@types/body-parser": "^1.19.5",
+    "@types/cacheable-request": "^6.0.3",
+    "@types/connect": "^3.4.38",
+    "@types/content-disposition": "^0.5.8",
+    "@types/cookies": "^0.9.0",
+    "@types/eslint": "^9.6.1",
+    "@types/eslint-scope": "^8.3.0",
+    "@types/express": "^5.0.2",
+    "@types/express-serve-static-core": "^5.0.6",
+    "@types/fined": "^1.1.5",
+    "@types/follow-redirects": "^1.14.4",
+    "@types/glob": "^8.1.0",
+    "@types/hoist-non-react-statics": "^3.3.6",
+    "@types/html-minifier-terser": "^7.0.2",
+    "@types/http-assert": "^1.5.6",
+    "@types/http-cache-semantics": "^4.0.4",
+    "@types/http-errors": "^2.0.4",
+    "@types/keygrip": "^1.0.6",
+    "@types/mime": "^3.0.4",
+    "@types/ms": "^2.1.0",
+    "@types/node": "^20",
+    "@types/normalize-package-data": "^2.4.4",
+    "@types/parse-json": "^4.0.2",
+    "@types/progress-stream": "^2.0.5",
+    "@types/prop-types": "^15.7.14",
+    "@types/qs": "^6.14.0",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/send": "^0.17.4",
+    "@types/serve-static": "^1.15.7",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "7b57bfc6-1b0e-47bf-9172-c099ec7fe000"
+  }
+}
